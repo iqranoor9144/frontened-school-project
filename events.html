@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events & News Calendar | Aurelia Academy</title>
+  <meta name="description" content="Stay updated with upcoming events, seminars, sports meets, and news at Aurelia Academy.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader-wrapper">
+    <div class="spinner-box">
+      <div class="circle-outer"></div>
+      <div class="circle-inner"></div>
+    </div>
+    <div class="loader-logo">Aurelia Academy</div>
+    <div class="loader-subtitle">Inspiring Excellence & Leadership</div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-crest"><i class="fas fa-graduation-cap"></i></div>
+        <div class="logo-text-wrapper">
+          <span class="logo-title">AURELIA</span>
+          <span class="logo-subtitle">Academy & International School</span>
+        </div>
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About School</a>
+        <a href="academics.html" class="nav-link">Academics</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="events.html" class="nav-link active">Events</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+        <button class="btn btn-gold btn-sm header-cta" data-modal-target="admissionModal"><i class="fas fa-paper-plane"></i> Apply Now</button>
+        <button class="mobile-toggle-btn" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1 class="page-banner-title">School Events & News</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Events</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filterable Events -->
+  <section style="padding: 6rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Calendar 2026</span>
+        <h2 class="section-title">Upcoming Campus Activities</h2>
+        <p class="section-description">Filter events by category and reserve passes for parents, alumni, and prospective scholars.</p>
+      </div>
+
+      <div class="program-tabs reveal">
+        <button class="tab-btn active" data-filter="all" data-group="events">All Events</button>
+        <button class="tab-btn" data-filter="academic" data-group="events">Academic</button>
+        <button class="tab-btn" data-filter="sports" data-group="events">Sports</button>
+        <button class="tab-btn" data-filter="cultural" data-group="events">Cultural</button>
+      </div>
+
+      <div class="events-grid">
+        <!-- Event 1 -->
+        <div class="event-card reveal" data-category-item="events" data-category="academic">
+          <div class="event-date-box">
+            <div>
+              <div class="event-day">15</div>
+              <div class="event-month-year">AUG 2026</div>
+            </div>
+            <div class="event-tag">Academic</div>
+          </div>
+          <div class="event-content">
+            <h3 class="event-title">Annual Innovation & Science Expo 2026</h3>
+            <div class="event-meta">
+              <div class="event-meta-item"><i class="fas fa-clock"></i> 09:00 AM - 04:00 PM</div>
+              <div class="event-meta-item"><i class="fas fa-map-marker-alt"></i> Main Auditorium & STEM Wing</div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">Students present 150+ prototype innovations in solar energy, AI robotics, and biotechnology.</p>
+            <div class="event-footer">
+              <button class="btn btn-navy btn-sm" data-modal-target="admissionModal">Register Pass</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="event-card reveal" data-category-item="events" data-category="sports">
+          <div class="event-date-box">
+            <div>
+              <div class="event-day">28</div>
+              <div class="event-month-year">AUG 2026</div>
+            </div>
+            <div class="event-tag">Sports</div>
+          </div>
+          <div class="event-content">
+            <h3 class="event-title">Inter-School Aquatics & Track Sprint</h3>
+            <div class="event-meta">
+              <div class="event-meta-item"><i class="fas fa-clock"></i> 08:30 AM - 05:00 PM</div>
+              <div class="event-meta-item"><i class="fas fa-map-marker-alt"></i> Aurelia Olympic Complex</div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">Over 30 top schools compete in swimming, athletics track races, and gymnastics.</p>
+            <div class="event-footer">
+              <button class="btn btn-navy btn-sm" data-modal-target="admissionModal">Register Pass</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-card reveal" data-category-item="events" data-category="cultural">
+          <div class="event-date-box">
+            <div>
+              <div class="event-day">10</div>
+              <div class="event-month-year">SEP 2026</div>
+            </div>
+            <div class="event-tag">Cultural</div>
+          </div>
+          <div class="event-content">
+            <h3 class="event-title">Global Harmony Symphony Gala</h3>
+            <div class="event-meta">
+              <div class="event-meta-item"><i class="fas fa-clock"></i> 06:00 PM - 09:30 PM</div>
+              <div class="event-meta-item"><i class="fas fa-map-marker-alt"></i> Open Air Amphitheatre</div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">A mesmerizing evening of classical orchestral performances and multi-cultural dance galas.</p>
+            <div class="event-footer">
+              <button class="btn btn-navy btn-sm" data-modal-target="admissionModal">Register Pass</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aurelia Academy & International School. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

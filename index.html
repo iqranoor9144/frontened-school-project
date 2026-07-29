@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurelia Academy & International School | Inspiring Excellence & Global Leaders</title>
+  
+  <!-- SEO Meta Tags -->
+   <meta name="description" content="Aurelia Academy & International School provides world-class education from Kindergarten to Senior Secondary. Empowering future leaders through academic excellence, innovation, and holistic development.">
+  <meta name="keywords" content="International School, Best School, Private Academy, STEM Education, IB Curriculum, Admissions 2026">
+  <meta name="author" content="Aurelia Academy">
+
+  <!-- //Open Graph / Social Media Meta  -->
+   <meta property="og:title" content="Aurelia Academy & International School">
+  <meta property="og:description" content="Nurturing curiosity, character, and intellect for over 25 years.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:type" content="website"> 
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. Loading Spinner Screen
+       ========================================================================= -->
+  <div id="loader-wrapper">
+    <div class="spinner-box">
+      <div class="circle-outer"></div>
+      <div class="circle-inner"></div>
+    </div>
+    <div class="loader-logo">Aurelia Academy</div>
+    <div class="loader-subtitle">Inspiring Excellence & Leadership</div>
+  </div>
+
+  <!-- =========================================================================
+       2. Top Announcement Bar
+       ========================================================================= -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-info">
+        <div class="top-info-item">
+          <i class="fas fa-phone-alt"></i>
+          <span>Admissions Hotline: +1 (800) 555-AURELIA</span>
+        </div>
+        <div class="top-info-item">
+          <i class="fas fa-envelope"></i>
+          <span>admissions@aureliaacademy.edu</span>
+        </div>
+        <div class="top-info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Royal Campus, 100 University Ave, Tech District</span>
+        </div>
+      </div>
+      <div class="top-actions">
+        <a href="#contact" class="portal-link"><i class="fas fa-user-graduate"></i> Student Portal</a>
+        <a href="#contact" class="portal-link"><i class="fas fa-chalkboard-teacher"></i> Staff Portal</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       3. Main Header & Navigation
+       ========================================================================= -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-crest">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="logo-text-wrapper">
+          <span class="logo-title">AURELIA</span>
+          <span class="logo-subtitle">Academy & International School</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About School</a>
+        <a href="academics.html" class="nav-link">Academics</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="btn btn-gold btn-sm header-cta" data-modal-target="admissionModal">
+          <i class="fas fa-paper-plane"></i> Apply Now
+        </button>
+        <button class="mobile-toggle-btn" aria-label="Open Mobile Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <div class="logo">
+        <div class="logo-crest"><i class="fas fa-graduation-cap"></i></div>
+        <div class="logo-text-wrapper">
+          <span class="logo-title">AURELIA</span>
+          <span class="logo-subtitle">International School</span>
+        </div>
+      </div>
+      <button class="mobile-drawer-close" aria-label="Close Menu">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home <i class="fas fa-chevron-right"></i></a>
+      <a href="about.html" class="mobile-nav-link">About School <i class="fas fa-chevron-right"></i></a>
+      <a href="academics.html" class="mobile-nav-link">Academics <i class="fas fa-chevron-right"></i></a>
+      <a href="admissions.html" class="mobile-nav-link">Admissions <i class="fas fa-chevron-right"></i></a>
+      <a href="faculty.html" class="mobile-nav-link">Faculty & Staff <i class="fas fa-chevron-right"></i></a>
+      <a href="events.html" class="mobile-nav-link">Events & News <i class="fas fa-chevron-right"></i></a>
+      <a href="gallery.html" class="mobile-nav-link">Gallery <i class="fas fa-chevron-right"></i></a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us <i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div style="margin-top: auto; padding-top: 2rem;">
+      <button class="btn btn-gold btn-lg" style="width: 100%;" data-modal-target="admissionModal">
+        <i class="fas fa-paper-plane"></i> Apply for 2026-27
+      </button>
+    </div>
+  </div>
+  <div class="drawer-backdrop"></div>
+
+  <!-- =========================================================================
+       4. Hero Section
+       ========================================================================= -->
+  <section class="hero-section">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container hero-grid">
+      <div class="hero-content reveal-left">
+        <div class="hero-tag">
+          <i class="fas fa-award"></i> Premier International Education 2026-27
+        </div>
+        <h1 class="hero-title">
+          Empowering Minds, <br>
+          <span class="text-gold">Inspiring Future</span> Leaders
+        </h1>
+        <p class="hero-description">
+          Welcome to Aurelia Academy & International School, where academic rigor, innovation, and character building merge to shape the visionary thinkers and global changemakers of tomorrow.
+        </p>
+        <div class="hero-cta-group">
+          <a href="academics.html" class="btn btn-gold btn-lg">
+            <i class="fas fa-book-open"></i> Explore Programs
+          </a>
+          <button class="btn btn-glass btn-lg" data-modal-target="admissionModal">
+            <i class="fas fa-paper-plane"></i> Apply for Admission
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal-right">
+        <div class="hero-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80" alt="Aurelia Academy Campus">
+        </div>
+        <!-- Floating Glass Overlay Cards -->
+        <div class="hero-floating-badge">
+          <div class="badge-icon-box">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="badge-text-box">
+            <h4>Ivy League Pathway</h4>
+            <p>98% Ivy & Global Top 50 Placement</p>
+          </div>
+        </div>
+
+        <div class="hero-floating-rating">
+          <div class="rating-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <span style="font-weight: 700; font-size: 0.9rem;">4.9 / 5 Parent Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. School Statistics Section (Animated Counters)
+       ========================================================================= -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-user-graduate"></i></div>
+          <div class="stat-number" data-target="2500" data-suffix="+">0</div>
+          <div class="stat-label">Enrolled Students</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+          <div class="stat-number" data-target="99" data-suffix=".4%">0</div>
+          <div class="stat-label">Academic Pass Rate</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="stat-number" data-target="150" data-suffix="+">0</div>
+          <div class="stat-label">Master Faculty Members</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-medal"></i></div>
+          <div class="stat-number" data-target="45" data-suffix="+">0</div>
+          <div class="stat-label">National Excellence Awards</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. Principal's Welcome Message
+       ========================================================================= -->
+  <section class="principal-section">
+    <div class="container principal-grid">
+      <div class="principal-image-container reveal-left">
+        <div class="principal-frame">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="Principal Dr. Eleanor Vance">
+        </div>
+        <div class="principal-badge">
+          <i class="fas fa-quote-right" style="color: var(--accent-gold); margin-right: 0.4rem;"></i> Message from Leadership
+        </div>
+      </div>
+
+      <div class="principal-content reveal-right">
+        <div class="section-subtitle">Leadership Spotlight</div>
+        <h2 class="section-title" style="text-align: left;">Welcome to Aurelia Academy</h2>
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <p class="principal-quote">
+          "At Aurelia Academy, education is not merely the accumulation of facts; it is the ignition of lifelong curiosity, critical wisdom, and unwavering moral integrity. We nurture every child's unique talents in a safe, vibrant, and technology-enriched environment."
+        </p>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.7;">
+          Our world-class faculty empowers students to question fearlessly, innovate with compassion, and lead with humility. We invite you to join our close-knit, striving global community.
+        </p>
+        <div class="principal-meta">
+          <div class="principal-name">Dr. Eleanor Vance, Ph.D.</div>
+          <div class="principal-title">Principal & Head of Institution (Stanford Fellow)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. Why Choose Our School
+       ========================================================================= -->
+  <section class="why-choose-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Unmatched Quality</span>
+        <h2 class="section-title">Why Choose Aurelia Academy?</h2>
+        <p class="section-description">
+          We combine tradition with futuristic learning paradigms to prepare your child for an ever-evolving global landscape.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon-box"><i class="fas fa-atom"></i></div>
+          <h3 class="feature-title">Advanced STEM & AI Labs</h3>
+          <p class="feature-desc">Hands-on robotics, AI simulation labs, dynamic coding studios, and advanced biotechnology learning centers.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon-box"><i class="fas fa-globe-americas"></i></div>
+          <h3 class="feature-title">Global Curriculum</h3>
+          <p class="feature-desc">Integrated IB, Cambridge IGCSE, and Advanced Placement tracks tailored for top university admissions worldwide.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon-box"><i class="fas fa-heartbeat"></i></div>
+          <h3 class="feature-title">Holistic Growth & Well-being</h3>
+          <p class="feature-desc">Dedicated mindfulness sessions, emotional intelligence coaching, and comprehensive advisory systems.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon-box"><i class="fas fa-running"></i></div>
+          <h3 class="feature-title">Olympic Sports Complex</h3>
+          <p class="feature-desc">Heated indoor swimming pool, FIFA-grade turf ground, basketball arenas, and professional sports coaching.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon-box"><i class="fas fa-paint-brush"></i></div>
+          <h3 class="feature-title">Vibrant Performing Arts</h3>
+          <p class="feature-desc">State-of-the-art 800-seat acoustic auditorium, music conservatories, and fine arts exhibition galleries.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon-box"><i class="fas fa-shield-alt"></i></div>
+          <h3 class="feature-title">Safe & Smart Campus</h3>
+          <p class="feature-desc">24/7 AI-assisted biometric security, digital student tracking, green zero-carbon eco-friendly infrastructure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. Academic Programs Showcase
+       ========================================================================= -->
+  <section class="programs-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Academic Pathways</span>
+        <h2 class="section-title">Explore Our Programs</h2>
+        <p class="section-description">
+          Tailored learning milestones designed for every stage of your child's cognitive and personal growth.
+        </p>
+      </div>
+
+      <div class="program-tabs reveal">
+        <button class="tab-btn active" data-filter="all" data-group="programs">All Levels</button>
+        <button class="tab-btn" data-filter="primary" data-group="programs">Primary School</button>
+        <button class="tab-btn" data-filter="middle" data-group="programs">Middle School</button>
+        <button class="tab-btn" data-filter="senior" data-group="programs">Senior Secondary</button>
+      </div>
+
+      <div class="programs-grid">
+        <!-- Card 1 -->
+        <div class="program-card reveal" data-category-item="programs" data-category="primary">
+          <div class="program-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80" alt="Primary Education">
+            <div class="program-badge">Grades K - 5</div>
+          </div>
+          <div class="program-body">
+            <h3 class="program-title">Foundational Primary Wings</h3>
+            <p class="program-desc">Fostering wonder, foundational literacy, numeracy, collaborative play, and environmental awareness.</p>
+            <ul class="program-features">
+              <li><i class="fas fa-check-circle"></i> Play-based Inquiry Curriculum</li>
+              <li><i class="fas fa-check-circle"></i> Dual Language Immersion</li>
+              <li><i class="fas fa-check-circle"></i> Creative Arts & Music Discovery</li>
+            </ul>
+            <a href="academics.html" class="btn btn-navy btn-sm" style="width: 100%;">View Curriculum</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="program-card reveal" data-category-item="programs" data-category="middle">
+          <div class="program-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80" alt="Middle School">
+            <div class="program-badge">Grades 6 - 8</div>
+          </div>
+          <div class="program-body">
+            <h3 class="program-title">Middle School Discovery</h3>
+            <p class="program-desc">Building analytical thinking, scientific inquiry, digital literacy, and team leadership through projects.</p>
+            <ul class="program-features">
+              <li><i class="fas fa-check-circle"></i> Integrated STEM & Robotics</li>
+              <li><i class="fas fa-check-circle"></i> Model UN & Debate Societies</li>
+              <li><i class="fas fa-check-circle"></i> Outdoor Adventure & Camps</li>
+            </ul>
+            <a href="academics.html" class="btn btn-navy btn-sm" style="width: 100%;">View Curriculum</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="program-card reveal" data-category-item="programs" data-category="senior">
+          <div class="program-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80" alt="Senior Secondary">
+            <div class="program-badge">Grades 9 - 12</div>
+          </div>
+          <div class="program-body">
+            <h3 class="program-title">Senior Secondary Prep</h3>
+            <p class="program-desc">Rigorously preparing students for university entrance exams, IB Diplomas, and global research fellowships.</p>
+            <ul class="program-features">
+              <li><i class="fas fa-check-circle"></i> Advanced Placement & IB Tracks</li>
+              <li><i class="fas fa-check-circle"></i> 1-on-1 University Counseling</li>
+              <li><i class="fas fa-check-circle"></i> Industry Internship Mentorship</li>
+            </ul>
+            <a href="academics.html" class="btn btn-navy btn-sm" style="width: 100%;">View Curriculum</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. Featured Teachers / Faculty
+       ========================================================================= -->
+  <section class="faculty-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">World-Class Educators</span>
+        <h2 class="section-title">Meet Our Master Faculty</h2>
+        <p class="section-description">
+          Our mentors hold degrees from top global universities and are dedicated to nurturing each student's genius.
+        </p>
+      </div>
+
+      <div class="faculty-grid">
+        <!-- Faculty 1 -->
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=500&q=80" alt="Prof. David Miller">
+            <div class="faculty-socials">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Prof. David Miller</h3>
+            <div class="faculty-role">Head of Science & Physics</div>
+            <div class="faculty-degree">M.Sc. Oxford University (12+ Yrs Exp.)</div>
+          </div>
+        </div>
+
+        <!-- Faculty 2 -->
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1580894732413-a7089393e15d?auto=format&fit=crop&w=500&q=80" alt="Dr. Sophia Chen">
+            <div class="faculty-socials">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Dr. Sophia Chen</h3>
+            <div class="faculty-role">Mathematics & AI Lead</div>
+            <div class="faculty-degree">Ph.D. MIT (15+ Yrs Exp.)</div>
+          </div>
+        </div>
+
+        <!-- Faculty 3 -->
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Ms. Clara Oswald">
+            <div class="faculty-socials">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Ms. Clara Oswald</h3>
+            <div class="faculty-role">Head of English & Literature</div>
+            <div class="faculty-degree">M.A. Cambridge (10+ Yrs Exp.)</div>
+          </div>
+        </div>
+
+        <!-- Faculty 4 -->
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="Coach Marcus Vance">
+            <div class="faculty-socials">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Coach Marcus Vance</h3>
+            <div class="faculty-role">Director of Sports & Athletics</div>
+            <div class="faculty-degree">Former National Olympian</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="faculty.html" class="btn btn-outline-gold"><i class="fas fa-users"></i> View Full Faculty Directory</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. Student Achievements Section
+       ========================================================================= -->
+  <section class="achievements-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle" style="color: var(--accent-gold);">Hall of Fame</span>
+        <h2 class="section-title">Celebrating Student Excellence</h2>
+        <p class="section-description">
+          Our scholars continuously shine at international olympiads, national sports championships, and global innovation fairs.
+        </p>
+      </div>
+
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+          <h3 class="achievement-title">International Science Olympiad 1st Gold</h3>
+          <div class="achievement-student">Aarav Sharma (Grade 12)</div>
+          <p class="achievement-desc">Secured World Rank #1 in Theoretical Physics among contestants from 85 nations in Geneva.</p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-award"></i></div>
+          <h3 class="achievement-title">National Youth Robotics Championship</h3>
+          <div class="achievement-student">Aurelia Tech Team 'Nova'</div>
+          <p class="achievement-desc">Designed an autonomous solar ocean cleanup drone, winning the Grand Innovation Cup.</p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+          <h3 class="achievement-title">National Swimming Championship</h3>
+          <div class="achievement-student">Jessica Lin (Grade 10)</div>
+          <p class="achievement-desc">Broke 3 national high-school sprint records, earning gold medals in the 100m freestyle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. Upcoming Events Section
+       ========================================================================= -->
+  <section class="events-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Campus Life</span>
+        <h2 class="section-title">Upcoming School Events</h2>
+        <p class="section-description">
+          Stay connected with our bustling calendar of seminars, sports meets, cultural galas, and parent workshops.
+        </p>
+      </div>
+
+      <div class="events-grid">
+        <!-- Event 1 -->
+        <div class="event-card reveal">
+          <div class="event-date-box">
+            <div>
+              <div class="event-day">15</div>
+              <div class="event-month-year">AUG 2026</div>
+            </div>
+            <div class="event-tag">Academic</div>
+          </div>
+          <div class="event-content">
+            <h3 class="event-title">Annual Innovation & Science Expo 2026</h3>
+            <div class="event-meta">
+              <div class="event-meta-item"><i class="fas fa-clock"></i> 09:00 AM - 04:00 PM</div>
+              <div class="event-meta-item"><i class="fas fa-map-marker-alt"></i> Main Auditorium & STEM Lab</div>
+            </div>
+            <div class="event-footer">
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--accent-gold-dark);">Open for All Parents</span>
+              <a href="events.html" class="btn btn-navy btn-sm">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="event-card reveal">
+          <div class="event-date-box">
+            <div>
+              <div class="event-day">28</div>
+              <div class="event-month-year">AUG 2026</div>
+            </div>
+            <div class="event-tag">Sports</div>
+          </div>
+          <div class="event-content">
+            <h3 class="event-title">Inter-School Aquatics & Track Championship</h3>
+            <div class="event-meta">
+              <div class="event-meta-item"><i class="fas fa-clock"></i> 08:30 AM - 05:00 PM</div>
+              <div class="event-meta-item"><i class="fas fa-map-marker-alt"></i> Aurelia Olympic Complex</div>
+            </div>
+            <div class="event-footer">
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--accent-gold-dark);">Pass Required</span>
+              <a href="events.html" class="btn btn-navy btn-sm">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-card reveal">
+          <div class="event-date-box">
+            <div>
+              <div class="event-day">10</div>
+              <div class="event-month-year">SEP 2026</div>
+            </div>
+            <div class="event-tag">Cultural</div>
+          </div>
+          <div class="event-content">
+            <h3 class="event-title">Global Harmony Music & Symphony Night</h3>
+            <div class="event-meta">
+              <div class="event-meta-item"><i class="fas fa-clock"></i> 06:00 PM - 09:30 PM</div>
+              <div class="event-meta-item"><i class="fas fa-map-marker-alt"></i> Open Air Amphitheatre</div>
+            </div>
+            <div class="event-footer">
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--accent-gold-dark);">Gala Ticketed</span>
+              <a href="events.html" class="btn btn-navy btn-sm">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       12. Parent & Student Testimonials
+       ========================================================================= -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Parent Perspectives</span>
+        <h2 class="section-title">What Our Community Says</h2>
+        <p class="section-description">
+          Read genuine feedback from parents and alumni about their journey with Aurelia Academy.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Enrolling our twins at Aurelia Academy was the best decision we ever made. The balance between academic rigor and emotional empathy is truly world-class."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" class="testimonial-avatar" alt="Parent Sarah Jenkins">
+            <div class="testimonial-info">
+              <h4>Sarah Jenkins</h4>
+              <p>Parent of Grade 8 & 10 Students</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "The IB program and personalized mentorship at Aurelia helped me land a full scholarship at Harvard. The teachers genuinely care about your dreams!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80" class="testimonial-avatar" alt="Alumnus Liam Thorne">
+            <div class="testimonial-info">
+              <h4>Liam Thorne</h4>
+              <p>Alumnus (Harvard Class of 2025)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "State-of-the-art STEM labs, warm school culture, and exceptional security give us total peace of mind every single day."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" class="testimonial-avatar" alt="Parent Robert Sterling">
+            <div class="testimonial-info">
+              <h4>Robert Sterling</h4>
+              <p>Parent of Primary Scholar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       13. 4-Step Admission Process Guide
+       ========================================================================= -->
+  <section class="admission-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Join Our Family</span>
+        <h2 class="section-title">Simple 4-Step Admission Process</h2>
+        <p class="section-description">
+          We have designed an open, transparent, and hassle-free enrollment pathway for prospective parents.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card reveal">
+          <div class="process-number">1</div>
+          <div class="process-icon"><i class="fas fa-file-alt"></i></div>
+          <h3 class="process-title">Submit Application</h3>
+          <p class="process-desc">Fill out our online inquiry form or register directly through our admissions portal.</p>
+        </div>
+
+        <div class="process-card reveal">
+          <div class="process-number">2</div>
+          <div class="process-icon"><i class="fas fa-school"></i></div>
+          <h3 class="process-title">Campus Tour</h3>
+          <p class="process-desc">Schedule an interactive guided campus walk and meet our academic department heads.</p>
+        </div>
+
+        <div class="process-card reveal">
+          <div class="process-number">3</div>
+          <div class="process-icon"><i class="fas fa-user-check"></i></div>
+          <h3 class="process-title">Interaction & Review</h3>
+          <p class="process-desc">Age-appropriate student interaction and informal discussion to understand learning needs.</p>
+        </div>
+
+        <div class="process-card reveal">
+          <div class="process-number">4</div>
+          <div class="process-icon"><i class="fas fa-certificate"></i></div>
+          <h3 class="process-title">Enrollment Offer</h3>
+          <p class="process-desc">Receive formal seat offer, complete documentation, and welcome orientation packet.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3.5rem;" class="reveal">
+        <a href="admissions.html" class="btn btn-gold btn-lg"><i class="fas fa-paper-plane"></i> Start Admission Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       14. Frequently Asked Questions (FAQ Accordion)
+       ========================================================================= -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Clarifications</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-description">
+          Got questions? Here are quick answers to the most common queries from prospective families.
+        </p>
+      </div>
+
+      <div class="faq-wrapper reveal">
+        <div class="faq-item active">
+          <div class="faq-header">
+            <h3 class="faq-question">What board curricula are offered at Aurelia Academy?</h3>
+            <i class="fas fa-chevron-down faq-toggle-icon"></i>
+          </div>
+          <div class="faq-body" style="max-height: 200px;">
+            <div class="faq-body-content">
+              We offer integrated IB (International Baccalaureate) Primary & Diploma programs, Cambridge IGCSE for Middle/Senior secondary, and Advanced Placement (AP) preparation for North American universities.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">What is the teacher-to-student ratio?</h3>
+            <i class="fas fa-chevron-down faq-toggle-icon"></i>
+          </div>
+          <div class="faq-body">
+            <div class="faq-body-content">
+              To ensure individualized attention, we maintain a strict 1:12 teacher-to-student ratio in Primary grades and 1:15 in Middle & Senior wings.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">Are school transport facilities available with tracking?</h3>
+            <i class="fas fa-chevron-down faq-toggle-icon"></i>
+          </div>
+          <div class="faq-body">
+            <div class="faq-body-content">
+              Yes, our fleet of air-conditioned buses is equipped with real-time GPS tracking, speed governors, female security attendants, and live mobile app notifications for parents.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">Does the school offer merit scholarships or financial aid?</h3>
+            <i class="fas fa-chevron-down faq-toggle-icon"></i>
+          </div>
+          <div class="faq-body">
+            <div class="faq-body-content">
+              Aurelia Academy offers merit-based scholarships up to 50% tuition waiver for exceptional achievements in academics, STEM innovation, national sports, and fine arts.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">What safety measures are implemented on campus?</h3>
+            <i class="fas fa-chevron-down faq-toggle-icon"></i>
+          </div>
+          <div class="faq-body">
+            <div class="faq-body-content">
+              The campus features 24/7 CCTV surveillance, biometric entry barriers, a full-time resident medical doctor with an emergency clinic, and certified safety officers.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       15. Contact Form & Google Map Section
+       ========================================================================= -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">We'd Love to Hear From You</h2>
+        <p class="section-description">
+          Send us your inquiries or visit our campus. Our admissions counselors are available Monday through Saturday.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Form -->
+        <div class="contact-card reveal-left">
+          <h3 class="form-title" style="font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 1.5rem;">Send an Admissions Inquiry</h3>
+          <form class="validate-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="parentName">Parent / Guardian Full Name *</label>
+              <input type="text" id="parentName" class="form-input" placeholder="e.g. Eleanor Vance" required>
+              <span class="error-message">Name is required.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="emailAddr">Email Address *</label>
+              <input type="email" id="emailAddr" class="form-input" placeholder="name@example.com" required>
+              <span class="error-message">Valid email is required.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="phoneNum">Phone Number *</label>
+              <input type="tel" id="phoneNum" class="form-input" placeholder="+1 (555) 000-0000" required>
+              <span class="error-message">Valid phone number is required.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="gradeApply">Grade Applying For *</label>
+              <select id="gradeApply" class="form-select" required>
+                <option value="">Select Grade</option>
+                <option value="kindergarten">Kindergarten / Nursery</option>
+                <option value="primary">Primary (Grades 1-5)</option>
+                <option value="middle">Middle School (Grades 6-8)</option>
+                <option value="senior">Senior Secondary (Grades 9-12)</option>
+              </select>
+              <span class="error-message">Please select a grade.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Message / Questions</label>
+              <textarea id="message" class="form-textarea" placeholder="Tell us about your child or questions..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-lg" style="width: 100%;">
+              <i class="fas fa-paper-plane"></i> Submit Inquiry
+            </button>
+          </form>
+        </div>
+
+        <!-- Map Box Placeholder -->
+        <div class="map-box-container reveal-right">
+          <div class="map-placeholder">
+            <div class="map-overlay-card">
+              <h4><i class="fas fa-school" style="color: var(--accent-gold);"></i> Aurelia Academy Main Campus</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.8rem;">
+                Royal Campus, 100 University Boulevard, Tech District, City Center
+              </p>
+              <div style="font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                <div><i class="fas fa-clock" style="color: var(--accent-gold);"></i> Hours: Mon - Sat (08:00 AM - 05:00 PM)</div>
+                <div><i class="fas fa-phone" style="color: var(--accent-gold);"></i> Direct Line: +1 (800) 555-AURELIA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       16. Professional Footer
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1 -->
+        <div class="footer-about">
+          <a href="index.html" class="logo" style="margin-bottom: 1rem;">
+            <div class="logo-crest"><i class="fas fa-graduation-cap"></i></div>
+            <div class="logo-text-wrapper">
+              <span class="logo-title">AURELIA</span>
+              <span class="logo-subtitle">Academy</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            A premier international institution dedicated to cultivating critical thinking, global ethics, and academic brilliance in every learner.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="about.html"><i class="fas fa-angle-right"></i> About Our Vision</a>
+            <a href="academics.html"><i class="fas fa-angle-right"></i> Academic Programs</a>
+            <a href="admissions.html"><i class="fas fa-angle-right"></i> Admission Criteria</a>
+            <a href="faculty.html"><i class="fas fa-angle-right"></i> Faculty Directory</a>
+            <a href="events.html"><i class="fas fa-angle-right"></i> Events & News</a>
+            <a href="gallery.html"><i class="fas fa-angle-right"></i> Campus Gallery</a>
+          </div>
+        </div>
+
+        <!-- Col 3 -->
+        <div>
+          <h4 class="footer-heading">Academic Wings</h4>
+          <div class="footer-links">
+            <a href="academics.html"><i class="fas fa-angle-right"></i> Early Learning Center</a>
+            <a href="academics.html"><i class="fas fa-angle-right"></i> Primary School (K-5)</a>
+            <a href="academics.html"><i class="fas fa-angle-right"></i> Middle School (6-8)</a>
+            <a href="academics.html"><i class="fas fa-angle-right"></i> IB Diploma Program</a>
+            <a href="academics.html"><i class="fas fa-angle-right"></i> STEM & AI Incubator</a>
+            <a href="academics.html"><i class="fas fa-angle-right"></i> Summer Research Camp</a>
+          </div>
+        </div>
+
+        <!-- Col 4 -->
+        <div>
+          <h4 class="footer-heading">Newsletter & Alerts</h4>
+          <p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+            Subscribe for admission updates, academic newsletters, and event passes.
+          </p>
+          <form class="validate-form" novalidate>
+            <div class="newsletter-box">
+              <input type="email" class="newsletter-input" placeholder="Your email address" required>
+              <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aurelia Academy & International School. All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: inherit;">Privacy Policy</a>
+          <a href="#" style="color: inherit;">Terms of Service</a>
+          <a href="#" style="color: inherit;">Accreditation</a>
+          <a href="#" style="color: inherit;">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       17. Admission Application Modal Dialog
+       ========================================================================= -->
+  <div class="modal-overlay" id="admissionModal">
+    <div class="modal-card">
+      <span class="modal-close-btn">&times;</span>
+      <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--text-main); margin-bottom: 0.5rem;">
+        Application Form 2026-27
+      </h3>
+      <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+        Fill in student details below. Our admissions office will initiate your application within 24 hours.
+      </p>
+
+      <form class="validate-form" novalidate>
+        <div class="form-group">
+          <label class="form-label">Student Full Name *</label>
+          <input type="text" class="form-input" placeholder="Student name" required>
+          <span class="error-message">Student name is required.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Parent / Guardian Name *</label>
+          <input type="text" class="form-input" placeholder="Parent name" required>
+          <span class="error-message">Parent name is required.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Contact Email *</label>
+          <input type="email" class="form-input" placeholder="Email address" required>
+          <span class="error-message">Valid email is required.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Phone Number *</label>
+          <input type="tel" class="form-input" placeholder="Phone number" required>
+          <span class="error-message">Phone number is required.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Applying Grade *</label>
+          <select class="form-select" required>
+            <option value="">Choose Grade Level</option>
+            <option value="k">Kindergarten</option>
+            <option value="p">Primary (Grade 1-5)</option>
+            <option value="m">Middle (Grade 6-8)</option>
+            <option value="s">Senior Secondary (Grade 9-12)</option>
+          </select>
+          <span class="error-message">Grade is required.</span>
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-lg" style="width: 100%; margin-top: 1rem;">
+          <i class="fas fa-check-circle"></i> Submit Application Form
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal">
+    <div class="lightbox-content">
+      <span class="lightbox-close">&times;</span>
+      <span class="lightbox-prev">&#10094;</span>
+      <span class="lightbox-next">&#10095;</span>
+      <img src="" alt="Lightbox View" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

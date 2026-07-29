@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Aurelia Academy & International School</title>
+  <meta name="description" content="Get in touch with Aurelia Academy. Contact our admissions office, principal's desk, transport department, or visit our campus.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader-wrapper">
+    <div class="spinner-box">
+      <div class="circle-outer"></div>
+      <div class="circle-inner"></div>
+    </div>
+    <div class="loader-logo">Aurelia Academy</div>
+    <div class="loader-subtitle">Inspiring Excellence & Leadership</div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-crest"><i class="fas fa-graduation-cap"></i></div>
+        <div class="logo-text-wrapper">
+          <span class="logo-title">AURELIA</span>
+          <span class="logo-subtitle">Academy & International School</span>
+        </div>
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About School</a>
+        <a href="academics.html" class="nav-link">Academics</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+        <button class="btn btn-gold btn-sm header-cta" data-modal-target="admissionModal"><i class="fas fa-paper-plane"></i> Apply Now</button>
+        <button class="mobile-toggle-btn" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1 class="page-banner-title">Contact Us</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Department Contact Cards -->
+  <section style="padding: 5rem 0 2rem 0;">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-envelope-open-text"></i></div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.4rem;">Admissions Office</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">admissions@aureliaacademy.edu</p>
+          <p style="font-size: 0.88rem; color: var(--accent-gold-dark); font-weight: 600; margin-top: 0.3rem;">+1 (800) 555-AURELIA</p>
+        </div>
+
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-bus"></i></div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.4rem;">Transport Desk</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">transport@aureliaacademy.edu</p>
+          <p style="font-size: 0.88rem; color: var(--accent-gold-dark); font-weight: 600; margin-top: 0.3rem;">+1 (800) 555-BUSES</p>
+        </div>
+
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-user-shield"></i></div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.4rem;">Campus Safety & Security</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">security@aureliaacademy.edu</p>
+          <p style="font-size: 0.88rem; color: var(--accent-gold-dark); font-weight: 600; margin-top: 0.3rem;">24/7 Hotline Ext: 108</p>
+        </div>
+
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.4rem;">Careers & HR</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">careers@aureliaacademy.edu</p>
+          <p style="font-size: 0.88rem; color: var(--accent-gold-dark); font-weight: 600; margin-top: 0.3rem;">Ext: 204</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Map Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Form -->
+        <div class="contact-card reveal-left">
+          <h3 style="font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 1.5rem;">Send Us a Message</h3>
+          <form class="validate-form" novalidate>
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" class="form-input" placeholder="Your full name" required>
+              <span class="error-message">Name is required.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email Address *</label>
+              <input type="email" class="form-input" placeholder="name@example.com" required>
+              <span class="error-message">Valid email is required.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Phone Number *</label>
+              <input type="tel" class="form-input" placeholder="Your phone number" required>
+              <span class="error-message">Phone number is required.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Inquiry Subject *</label>
+              <select class="form-select" required>
+                <option value="">Select Category</option>
+                <option value="admission">Admissions Query</option>
+                <option value="fees">Fee Structure & Scholarship</option>
+                <option value="tour">Campus Tour Request</option>
+                <option value="general">General Information</option>
+              </select>
+              <span class="error-message">Subject is required.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Message *</label>
+              <textarea class="form-textarea" placeholder="Type your message here..." required></textarea>
+              <span class="error-message">Message is required.</span>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-lg" style="width: 100%;">
+              <i class="fas fa-paper-plane"></i> Send Message Now
+            </button>
+          </form>
+        </div>
+
+        <!-- Map Box Placeholder -->
+        <div class="map-box-container reveal-right">
+          <div class="map-placeholder">
+            <div class="map-overlay-card">
+              <h4><i class="fas fa-map-marked-alt" style="color: var(--accent-gold);"></i> Aurelia Main Campus</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.8rem;">
+                Royal Campus, 100 University Boulevard, Tech District, City Center
+              </p>
+              <div style="font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                <div><i class="fas fa-clock" style="color: var(--accent-gold);"></i> Visiting Hours: Mon - Sat (08:30 AM - 04:30 PM)</div>
+                <div><i class="fas fa-phone" style="color: var(--accent-gold);"></i> Desk: +1 (800) 555-AURELIA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aurelia Academy & International School. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Photo Gallery | Aurelia Academy</title>
+  <meta name="description" content="Explore campus life, laboratories, athletic facilities, and cultural moments at Aurelia Academy in our high-resolution photo gallery.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader-wrapper">
+    <div class="spinner-box">
+      <div class="circle-outer"></div>
+      <div class="circle-inner"></div>
+    </div>
+    <div class="loader-logo">Aurelia Academy</div>
+    <div class="loader-subtitle">Inspiring Excellence & Leadership</div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-crest"><i class="fas fa-graduation-cap"></i></div>
+        <div class="logo-text-wrapper">
+          <span class="logo-title">AURELIA</span>
+          <span class="logo-subtitle">Academy & International School</span>
+        </div>
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About School</a>
+        <a href="academics.html" class="nav-link">Academics</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+        <button class="btn btn-gold btn-sm header-cta" data-modal-target="admissionModal"><i class="fas fa-paper-plane"></i> Apply Now</button>
+        <button class="mobile-toggle-btn" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1 class="page-banner-title">Campus Life Gallery</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Gallery</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Visual Experience</span>
+        <h2 class="section-title">Life at Aurelia Academy</h2>
+        <p class="section-description">Click on any image to open the high-definition interactive lightbox viewer.</p>
+      </div>
+
+      <div class="gallery-filters reveal">
+        <button class="tab-btn active" data-filter="all" data-group="gallery">All Moments</button>
+        <button class="tab-btn" data-filter="campus" data-group="gallery">Campus Grounds</button>
+        <button class="tab-btn" data-filter="labs" data-group="gallery">STEM Labs</button>
+        <button class="tab-btn" data-filter="sports" data-group="gallery">Sports Arena</button>
+        <button class="tab-btn" data-filter="arts" data-group="gallery">Arts & Culture</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Item 1 -->
+        <div class="gallery-item reveal" data-category-item="gallery" data-category="campus">
+          <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80" alt="Main School Entrance">
+          <div class="gallery-overlay">
+            <div class="gallery-title">Main Grand Entrance</div>
+            <div class="gallery-cat">Campus Grounds</div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item reveal" data-category-item="gallery" data-category="labs">
+          <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80" alt="Robotics Lab">
+          <div class="gallery-overlay">
+            <div class="gallery-title">Robotics & AI Studio</div>
+            <div class="gallery-cat">STEM Labs</div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item reveal" data-category-item="gallery" data-category="sports">
+          <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80" alt="Aquatics Complex">
+          <div class="gallery-overlay">
+            <div class="gallery-title">Olympic Swimming Pool</div>
+            <div class="gallery-cat">Sports Arena</div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item reveal" data-category-item="gallery" data-category="campus">
+          <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80" alt="Central Library">
+          <div class="gallery-overlay">
+            <div class="gallery-title">Central Library & Reading Pods</div>
+            <div class="gallery-cat">Campus Grounds</div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-item reveal" data-category-item="gallery" data-category="arts">
+          <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=800&q=80" alt="Orchestra Auditorium">
+          <div class="gallery-overlay">
+            <div class="gallery-title">Annual Symphony Night</div>
+            <div class="gallery-cat">Arts & Culture</div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-item reveal" data-category-item="gallery" data-category="labs">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80" alt="Interactive Classroom">
+          <div class="gallery-overlay">
+            <div class="gallery-title">Smart Digital Classroom</div>
+            <div class="gallery-cat">STEM Labs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal">
+    <div class="lightbox-content">
+      <span class="lightbox-close">&times;</span>
+      <span class="lightbox-prev">&#10094;</span>
+      <span class="lightbox-next">&#10095;</span>
+      <img src="" alt="Full View" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aurelia Academy & International School. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
